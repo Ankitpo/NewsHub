@@ -1,0 +1,42 @@
+.hub {
+  color: #e2211c;
+}
+
+.buttonn {
+  background-color: #e2211c;
+}
+
+.buttonn:hover {
+  background-color: #c41d19;
+}
+.social {
+  transition: 0.2s ease-in-out;
+}
+
+.social:hover {
+  background-color: #e2211c;
+  border-color: #e2211c;
+}
+
+.footlink {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.footlink:hover {
+  color: #f73e1d;
+}
+
+.btn-live {
+  background-color: #e02424;
+  border-color: #e02424;
+}
+.btn-live:hover {
+  background-color: #c81e1e;
+  border-color: #c81e1e;
+}
+.categoryimg {
+  height: 250px;
+  object-fit: cover;
+}
