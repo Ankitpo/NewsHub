@@ -43,12 +43,8 @@ export default async function Technology() {
                   <div className="card h-100">
                     <img
                       src={article.urlToImage || "/images/news-placeholder.jpg"}
-                      className="card-img-top"
+                      className="card-img-top descimg"
                       alt={article.title}
-                      style={{
-                        height: "200px",
-                        objectFit: "cover",
-                      }}
                     />
 
                     <div className="card-body">
