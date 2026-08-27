@@ -7,10 +7,6 @@ async function getNews() {
     "https://newsapi.org/v2/top-headlines?country=us&pageSize=20&apiKey=50c25ce81659402cbaca82874d6e10aa",
   );
 
-  if (!response.ok) {
-    throw new Error("Failed to fetch news");
-  }
-
   const data = await response.json();
 
   return data.articles;
