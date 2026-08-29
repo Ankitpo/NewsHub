@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="headerwrap">
-      <header className="border-bottom bg-white header">
+      <header className="border-bottom bg-white fixed-top">
         <nav className="navbar navbar-expand-lg py-3">
-          <div className="container-fluid px-4">
+          <div className="container px-4">
             <Link className="navbar-brand fw-bold fs-4 mb-0" href="/">
               News<span className="hub">Hub</span>
             </Link>
@@ -43,7 +43,6 @@ export default function Header() {
                   </Link>
                 </li>
               </ul>
-              n
               <div className="d-flex align-items-center gap-3">
                 <button
                   className="btn btn-link text-dark p-0"
