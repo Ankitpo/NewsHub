@@ -77,7 +77,7 @@ function CategoryCard(props) {
         <div className="card border rounded-100">
           <img
             src={`./images/${props.image}`}
-            className="card-img-top rounded-3 categoryimg"
+            className="card-img-top rounded-top categoryimg"
             alt={props.title}
           />
           <div className="card-body p-3">
